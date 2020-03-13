@@ -1,3 +1,7 @@
 def array_diff (a,b)
-    [1]
+    if a == b
+        return []
+    else
+        return a
+    end
 end

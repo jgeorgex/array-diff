@@ -5,5 +5,8 @@ describe 'array_diff' do
         expect(array_diff([1],[])).to eq([1])
     end
 
+    it 'returns [] when input is [1] and [1]' do
+        expect(array_diff([1],[1])).to eq([])
+    end
   
 end
